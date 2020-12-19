@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane id="gridpane" alignment="CENTER" hgap="10" prefHeight="422.0" prefWidth="526.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interact.controller.StartPageController">
+   <columnConstraints>
+      <ColumnConstraints fillWidth="false" maxWidth="427.0" minWidth="427.0" prefWidth="427.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane layoutX="1.0" opacity="0.9" prefHeight="309.0" prefWidth="440.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Button fx:id="startButton" layoutX="71.0" layoutY="224.0" mnemonicParsing="false" onAction="#startGame" prefHeight="44.0" prefWidth="105.0" text="START">
+               <font>
+                  <Font name="MV Boli" size="18.0" />
+               </font></Button>
+            <Label layoutX="71.0" layoutY="161.0" prefHeight="44.0" prefWidth="105.0" text="WALL COLOR:">
+               <font>
+                  <Font name="MV Boli" size="14.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="wallcolor" layoutX="244.0" layoutY="168.0" prefHeight="30.0" prefWidth="105.0" value="Black" />
+            
+            <Label layoutX="33.0" layoutY="14.0" text="WELCOME TO " textFill="#31ab15">
+               <font>
+                  <Font name="MV Boli" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="178.0" layoutY="76.0" prefHeight="62.0" prefWidth="197.0" text="SOKOBAN" textFill="#eb2525">
+               <font>
+                  <Font name="MV Boli" size="40.0" />
+               </font>
+            </Label>
+            <Button fx:id="quitButton" layoutX="244.0" layoutY="224.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="44.0" prefWidth="105.0" text="QUIT">
+               <font>
+                  <Font name="MV Boli" size="18.0" />
+               </font>
+            </Button>
+         </children>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </AnchorPane>
+   </children>
+</GridPane>

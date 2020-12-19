@@ -1,0 +1,65 @@
+#gridpane{
+    -fx-background-image: url("background.jpg");
+}
+
+#anchorPane{
+    -fx-background-image: url("background2.jfif");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+#startButton{
+    -fx-background-color: #FFFFFF;
+}
+
+#nextButton{
+    -fx-background-color: #FFFFFF;
+}
+
+#quitButton{
+    -fx-background-color: #FFFFFF;
+}
+
+#startButton:hover{
+    -fx-background-color:#2E8B57;
+    -fx-text-fill:white;
+}
+
+#nextButton:hover{
+    -fx-background-color:grey;
+    -fx-text-fill:white;
+}
+
+#quitButton2:hover{
+    -fx-background-color:grey;
+    -fx-text-fill:white;
+}
+
+#quitButton:hover{
+    -fx-background-color: #2E8B57;
+    -fx-text-fill:white;
+}
+
+#username{
+    -fx-border-color:#2E8B57;
+    -fx-font-family: 'MV Boli';
+    -fx-font-size: 12;
+}
+
+#wallcolor{
+    -fx-border-color:#2E8B57;
+    -fx-font-family: 'MV Boli';
+    -fx-font-size: 12;
+    -fx-background-color: #FFFFFF;
+}
+
+#text1{
+    -fx-font-size: 12;
+    -fx-font-family:'MV Boli';
+}
+
+#top10{
+    -fx-background-image: url("top10.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+}

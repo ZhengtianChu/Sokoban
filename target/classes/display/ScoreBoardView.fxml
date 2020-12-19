@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interact.controller.ScoreBoardController">
+   <children>
+      <AnchorPane layoutX="28.0" layoutY="147.0" opacity="0.78" prefHeight="327.0" prefWidth="411.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Text fx:id="text2" layoutX="16.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font name="MV Boli" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="8.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RANK">
+               <font>
+                  <Font name="MV Boli" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="222.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIME" wrappingWidth="69.30029296875">
+               <font>
+                  <Font name="MV Boli" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="moves" layoutX="333.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="69.30029296875">
+               <font>
+                  <Font name="MV Boli" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="smallTitle1" layoutX="116.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME" wrappingWidth="69.30029296875">
+               <font>
+                  <Font name="MV Boli" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="name" layoutX="116.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="101.30029296875">
+               <font>
+                  <Font name="MV Boli" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="time" layoutX="222.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="85.30029296875">
+               <font>
+                  <Font name="MV Boli" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="325.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOVES" wrappingWidth="85.30029296875">
+               <font>
+                  <Font name="MV Boli" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="rank" layoutX="17.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="text" wrappingWidth="34.390625">
+               <font>
+                  <Font name="MV Boli" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="top10" layoutX="164.0" layoutY="22.0" prefHeight="125.0" prefWidth="140.0" />
+      <Button fx:id="quitButton2" layoutX="286.0" layoutY="523.0" mnemonicParsing="false" onAction="#closeGame" prefHeight="26.0" prefWidth="101.0" text="QUIT">
+         <font>
+            <Font name="MV Boli" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="nextButton" layoutX="78.0" layoutY="523.0" mnemonicParsing="false" onAction="#next" prefHeight="36.0" prefWidth="101.0" text="NEXT">
+         <font>
+            <Font name="MV Boli" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

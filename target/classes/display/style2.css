@@ -1,0 +1,12 @@
+#anchorPane{
+    -fx-background-image: url("background3.jfif");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+
+#top10{
+    -fx-background-image: url("top10.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+}
