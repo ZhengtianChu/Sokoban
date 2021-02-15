@@ -1,5 +1,5 @@
 ## Introduction
-Zhengtian CHU (scyzc3), Tested on Windows 10, Maven Build Script, Java 15, JavaFX 11
+Zhengtian CHU (scyzc3), Tested on Windows 10, Maven Build Script, Java 15, JavaFX 11, final grades: 95/100.
 
 ## Contents
 ### New Classes
